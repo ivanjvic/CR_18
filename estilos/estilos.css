@@ -1,0 +1,75 @@
+body {
+	background:url(../images/grid.gif);
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#cabecera_ppal {
+	background-color: #fff;
+	overflow: hidden;
+	width: 100%;
+}
+
+#caja_logo {
+	float: left;
+	width: 30%;
+}
+
+#caja_logo img {
+	max-width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#caja_contactos {
+	float: right;
+}
+
+#botonera {
+	background-color: #CCC;
+	overflow: hidden;
+	width: 100%;
+}
+
+#botonera li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	width: 23%;
+}
+
+#hero {
+	width: 100%;
+}
+
+#bloques {
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 50px;
+	width: 100%;
+}
+
+#bloques article {
+	float: left;
+	width: 33.33333333333333%;
+}
+
+.parrafos_bloq {
+	padding: 3%;
+	text-align: justify;
+}
+
+.encab_bloq {
+	text-align: center;
+}
+
+.img_bloq {
+	 display: block;
+	margin: 0 auto;
+	max-width: 40%;
+}
