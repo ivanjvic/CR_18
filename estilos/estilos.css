@@ -3,8 +3,10 @@ body {
 }
 
 #container {
+	background-color: #fff;
 	margin: 0 auto;
 	width: 960px;
+	overflow: hidden;
 }
 
 #cabecera_ppal {
@@ -22,12 +24,17 @@ body {
 	max-width: 70%;
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding: 15px 0;
 }
 
 #caja_contactos {
 	float: right;
+	width: 70%;
+}
+
+#caja_contactos p {
+	text-align: right;
+	padding-right: 15px;
 }
 
 #botonera {
@@ -50,7 +57,7 @@ body {
 #bloques {
 	background-color: #fff;
 	overflow: hidden;
-	padding-top: 50px;
+	padding-top: 75px;
 	width: 100%;
 }
 
@@ -73,3 +80,21 @@ body {
 	margin: 0 auto;
 	max-width: 40%;
 }
+
+#titulo {
+	background-color: #fff;
+	padding-top: 75px;
+}
+
+#titulo h1 {
+	text-align: center;
+}
+
+#pie_pagina {
+	padding-top: 75px;
+}
+
+#pie_pagina h2,p {
+	text-align: center;
+}
+
