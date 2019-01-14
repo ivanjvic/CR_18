@@ -75,8 +75,8 @@ body {
 	text-align: center;
 }
 
-.img_bloq {
-	 display: block;
+#bloques img {
+	display: block;
 	margin: 0 auto;
 	max-width: 40%;
 }
@@ -86,15 +86,8 @@ body {
 	padding-top: 75px;
 }
 
-#titulo h1 {
-	text-align: center;
-}
-
 #pie_pagina {
 	padding-top: 75px;
 }
 
-#pie_pagina h2,p {
-	text-align: center;
-}
 
